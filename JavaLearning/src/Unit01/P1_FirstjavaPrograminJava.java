@@ -7,7 +7,7 @@ public class P1_FirstjavaPrograminJava {
 		
 		System.out.println("HELLO WORLD!");
 		
-		System.out.println("This Is My First Java Program");
+		System.out.println("This Is My Firsts Java Program");
 		
 
 	}
