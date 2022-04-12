@@ -24,8 +24,8 @@ public class P2_Task01_KeyWordsInJava {
 
 }
 
-class int{
-	
+	class int{
+
 	void display() {
 		System.out.println("In class One .......");
 	}

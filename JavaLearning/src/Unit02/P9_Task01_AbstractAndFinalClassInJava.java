@@ -22,30 +22,30 @@ package Unit02;
 
 abstract class Bike {
 	int a;
-	Bike(){
+
+	Bike() {
 		System.out.println("Inside Bike constructor: " + a + "\n");
 	}
-		
-		//abstract void run();//abstract method!(0-100%)
-		
-		void display() {
-			System.out.println("This is display method");
-		}
+
+	// abstract void run();//abstract method!(0-100%)
+
+	void display() {
+		System.out.println("This is display method");
+	}
 
 }
 
-class Honda4 extends Bike{
-	
-}
+class Honda4 extends Bike {
 
+}
 
 public class P9_Task01_AbstractAndFinalClassInJava {
 
 	public static void main(String[] args) {
 		Bike obj = new Honda4();
-		//obj.run();
+		// obj.run();
 		obj.display();
-		// can not be instantiated 
+		// can not be instantiated
 		// Bike obj2 - new Bike();
 	}
 
@@ -53,16 +53,13 @@ public class P9_Task01_AbstractAndFinalClassInJava {
 
 final class Super {
 	public int data = 30;
-	
+
 	void display() {
 		System.out.println(data);
 	}
 }
 /*
- public class extends Super {
- 
- 	void display2(){
- 		display();
- 		}
- 	}
+ * public class extends Super {
+ * 
+ * void display2(){ display(); } }
  */
