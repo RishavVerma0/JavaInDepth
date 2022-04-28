@@ -22,6 +22,7 @@ Static Import:
  * 
  */
 import static java.lang.System.*;
+
 import static java.lang.Math.*;
 
 import Unit01.SampleClass1;

@@ -25,6 +25,7 @@ public class P3_Task01_VariablesAndDataTypesInJava {
 	static int q = 11;
 	int p = 10;
 
+
 	public static void main(String[] args) {
 
 		// valid declarations
@@ -69,7 +70,8 @@ public class P3_Task01_VariablesAndDataTypesInJava {
 		double f;
 		int i = 10;
 		f = i;// type conversion
-
+		
+		
 		double g = 10;
 		int j;
 		j = (int) g; // type casting
@@ -79,10 +81,10 @@ public class P3_Task01_VariablesAndDataTypesInJava {
 		System.out.println(g);
 		System.out.println(j);
 
-		byte k = 10; // 1 byte
-		boolean l = true; // 1 bit = true or false only
-		long m = 10L;
-		float n = 1.2f;
+		byte k = 10; // 1 byte  
+		boolean l = true; // 1 bit = true or false only 
+		long m = 10L; 
+		float n = 1.2f; 
 		double o = 1.2d;
 
 		System.out.println(k);
@@ -107,7 +109,7 @@ public class P3_Task01_VariablesAndDataTypesInJava {
 		System.out.println(DEF.j++);
 		System.out.println(DEF.j);
 
-		DEF.typeconversionAndtypeCasting();
+		DEF.typeConversionAndTypeCasting();
 	}
 
 	int r = 10;
@@ -131,9 +133,9 @@ class DEF {
 
 	}
 
-	static void typeconversionAndtypeCasting() {
+	static void typeConversionAndTypeCasting() {
 
-		double f; // 64 slots
+		double f; // 64 slots 
 		int i = 10; // 32 slots
 		f = i; // type conversion
 		System.out.println(f);

@@ -27,7 +27,7 @@ abstract class Bike {
 		System.out.println("Inside Bike constructor: " + a + "\n");
 	}
 
-	// abstract void run();//abstract method!(0-100%)
+	//abstract void run();//abstract method!(0-100%)
 
 	void display() {
 		System.out.println("This is display method");
@@ -59,10 +59,10 @@ final class Super {
 	}
 }
 /*
- * public class extends Super {
- * 
- * void display2(){ 
- * 		display(); 
- * 	} 
- * }
+ public class extends Super {
+
+ void display2(){ 
+ 		display(); 
+ 	} 
+ }
  */

@@ -5,7 +5,9 @@ public class P2_Task02_ConstantsInJava {
 	public static final double Pi = 3.14;
 
 	public static void main(String[] args) {
-
+		
+		
+		
 		final int a = 10;
 
 		System.out.println(Pi);
@@ -46,4 +48,5 @@ class Calculator {
 	int multi(int a, int b) {
 		return (a * b);
 	}
+	
 }

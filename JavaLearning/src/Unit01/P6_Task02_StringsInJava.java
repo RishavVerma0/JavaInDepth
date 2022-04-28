@@ -18,7 +18,8 @@ class StringInJava {
 		String s = "Hello There!";
 		String s1 = new String("I Love You :)");
 		System.out.println(s);
-
+		
+		
 		// get length of the string
 		System.out.println(s.length());
 
@@ -82,9 +83,11 @@ class StringInJava {
 
 		String s2 = "Haaye";
 		char[] sh4 = s2.toCharArray();
+		
 
 		// char array to string
 		char[] a2 = { 'A', 'Y', 'E' };
 		String s3 = new String(a2);
+		
 	}
 }

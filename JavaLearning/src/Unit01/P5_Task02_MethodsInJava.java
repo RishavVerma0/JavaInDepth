@@ -11,7 +11,7 @@ public class P5_Task02_MethodsInJava {
 		System.out.println(obj.a);
 	}
 
-}
+} 
 
 class ABC3 {
 

@@ -55,7 +55,7 @@ class QuestionsOnString {
 	void reverseOfAString(String s) {
 		StringBuilder sb = new StringBuilder(s);
 		sb = new StringBuilder(s);
-		sb.reverse();
+		sb.reverse(); 
 
 		String rev = sb.toString();
 
@@ -69,6 +69,5 @@ class QuestionsOnString {
 			System.out.println("Both the strings are equal");
 		} else
 			System.out.println("Strings are not equal");
-
 	}
 }

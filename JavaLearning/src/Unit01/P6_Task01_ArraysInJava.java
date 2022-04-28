@@ -62,7 +62,8 @@ public class P6_Task01_ArraysInJava {
 			System.out.println(arr[i]);
 		}
 
-		// Multidimensional array in java
+		// Multidimensional array in java  
+		                                    
 
 		int[][] arr6 = new int[3][3];// 3row 3 column
 

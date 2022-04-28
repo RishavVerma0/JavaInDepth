@@ -128,6 +128,7 @@ class C extends A {
 	}
 }
 
+
 class D extends A {
 	int d;
 

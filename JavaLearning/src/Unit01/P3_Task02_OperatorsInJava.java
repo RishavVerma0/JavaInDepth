@@ -3,7 +3,7 @@ package Unit01;
 /*
 #Operators in java are defined as a symbol used to perform operations.
 
-Sum = a + b;
+Sum = a + b; 
 for example +,-,/,* ... etc
 
 -> a1+= 1; // a = a + 1
@@ -12,15 +12,14 @@ for example +,-,/,* ... etc
 
 -Unary operator:   (Prefix and post-fix) {a++, a--, ++a, --a, !a}
 -Arithmetic operator:{* + - /}
--Shift operator: { << >> }
--Relational Operator: { < > >= <= == != }
-
+-Shift operator: { << >> } 
+-Relational Operator: { < > >= <= == != } 
 
 -Bitwise Operator: {& ^ |} {bitwise AND, exclusive OR, inclusive OR}
--Logical Operator: {&& ||}
+-Logical operator: {&& ||}
 
 -Ternary Operator: {? :}
--Assignment Operator: { = += -= /= 5= &= ^= != <<= >>= >>>=2}
+-Assignment Operator: { = += -= /= 5= &= ^= != <<= >>= >>>=2}  
 	 */
 public class P3_Task02_OperatorsInJava {
 
@@ -45,10 +44,10 @@ class OperatorsInJava {
 		int a = 10;
 		boolean b = false;
 		System.out.println("Inside UnaryOperator");
-		System.out.println(a++); // 10
-		System.out.println(a--);
-		System.out.println(++a);
-		System.out.println(--a);
+		System.out.println(a++); // 10 = 11
+		System.out.println(a--); // 11 =  10++
+		System.out.println(++a); // 11 = 11
+		System.out.println(--a); // 10 
 
 		/*
 		 * Bitwise compliment(~) This unary operator returns one's compliment
@@ -56,11 +55,11 @@ class OperatorsInJava {
 		 * every ones to zero and zero to one
 		 */
 
-		System.out.println(~a);
+		System.out.println(~a);  
 
 		// Not operator (!): It is used to reverse the value of operand
 
-		System.out.println(!b);
+		System.out.println(!b); 
 		System.out.println("\n");
 	}
 
@@ -73,7 +72,7 @@ class OperatorsInJava {
 		System.out.println(a - b);// 5
 		System.out.println(a * b);// 50
 		System.out.println(a / b);// 2
-		System.out.println(a % b);// 0
+		System.out.println(a % b);// 0 
 
 		// what is the output of this expression
 		System.out.println(((10 * 10) / 5) + 3 - ((1 * 4) / 2));

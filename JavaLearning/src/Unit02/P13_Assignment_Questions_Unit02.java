@@ -66,8 +66,10 @@ abstract class Sample2{
 		System.out.println("This is a display method in side the class sample2");
 	}
 	
-	abstract public void run();// unimplemented method
+	abstract public void run();// unimplemented method 
 }
+
+
 
 class Sample3 extends Sample2 implements A3, B3 {
 	public void display() {

@@ -15,7 +15,7 @@ public class P4_Task02_WrapperClassesInJava {
 		// converting int into integer
 		int a = 20;
 
-		String s = " " + a + " ";
+		String s = " " + a + " "; 
 
 		Integer i = Integer.valueOf(a); // converting int into integer explicitly
 		Integer j = a; // autoboxing, now the compiler will write Integer.valueOf(a) Internally

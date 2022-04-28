@@ -30,7 +30,7 @@ public class P4_Task03_ScannerClassInJava {
 		String firstName = myObj1.next();
 		System.out.println("Name is -> " + firstName + "\n");
 
-		String name = myObj2.nextLine(); // (\n)
+		String name = myObj2.nextLine(); // (\n) 
 		String name2 = myObj2.nextLine(); // (\n)
 
 		System.out.println("Name is -> " + name + "\n");
@@ -42,6 +42,7 @@ public class P4_Task03_ScannerClassInJava {
 		myObj1.close();
 		myObj2.close();
 
+		
 	}
 
 }

@@ -17,6 +17,8 @@ package Unit01;
   	-Break statements
   	-Continue statements
  */
+
+
 public class P4_Task01_ControlAndConditionalStatementsInJava {
 
 	public static void main(String[] args) {
@@ -39,7 +41,7 @@ class Statements {
 		if (x + y < 10) {
 			System.out.println("X + Y is less than 10");
 		} else {
-			System.out.println("X + Y is less than 20");
+			System.out.println("X + Y is Greater than 10");
 		}
 
 		int num = 2;
@@ -80,8 +82,8 @@ class Statements {
 		int i = 0;
 		System.out.println("Printing the list of first ten even numbers: \n");
 		while (i <= 10) {
-			System.out.println(i);
-			i = i + 2;
+			System.out.println(i); 
+			i = i + 2;  
 		}
 
 		/*
@@ -110,11 +112,12 @@ class Statements {
 		}
 
 		// continue
+		
 		for (int i = 0; i <= 10; i++) {
 
 			if (i == 6) {
 				continue;
-			}
+			} 
 			System.out.println(i);
 		}
 	}
