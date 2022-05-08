@@ -1,35 +1,58 @@
 package Assignment01;
 
 public class Question07 {
-
-	public static void main(String[] args) {
-		// count of object created 
-		// count of display() method called
-		Employee1 obj1 = new Employee1();
-		Employee1 obj2 = new Employee1();
-		Employee1 obj3 = new Employee1();
-		obj2.display();
-		obj3.display();
-
-	}
-}
-
-class Employee1
-{
-	static int object_count = 0;
-	static int method_count = 0;
-	Employee1()
-	{
-		object_count ++;
-	}
 	
-	void display()
-	{
-		method_count++;
+		public static void main(String[] agrs) {
+			int j=0;
+			System.out.println("Question 07");
+			System.out.println("\t");
+			
+			Employe obj=new Employe();
+			j++;
+			Employe obj1=new Employe();
+			j++;
+			Employe obj2=new Employe();
+			j++;
+			Employe obj3=new Employe();
+			j++;
+			Employe obj4=new Employe();
+			j++;
+			Employe obj5=new Employe();
+			j++;
+			Employe obj6=new Employe();
+			j++;
+			Employe obj7=new Employe();
+			j++;
+			Employe obj8=new Employe();
+			j++;
+			Employe obj9=new Employe();
+			j++;
+			
+			System.out.println("Number of object created="+j);
+			
+			obj.display();
+			obj1.display();
+			obj2.display();
+			obj3.display();
+			obj4.display();
+			obj5.display();
+			
+			System.out.println("Number of calls made="+obj.i);
+		}
 	}
-	
-	void print()
-	{
-		System.out.println("Object count "+ object_count + "method count "+method_count);
+
+	class Employe{
+		
+		static int i=0;
+		void display(){
+			i++;
+		    if(i==1)
+			System.out.println(i+"st Call made");
+			else if(i==2)
+			System.out.println(i+"nd Call made");
+			else if(i==3)
+			System.out.println(i+"rd Call made");
+			else
+			System.out.println(i+"th Call made");
+		}
 	}
-}

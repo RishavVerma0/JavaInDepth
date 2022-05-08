@@ -6,8 +6,8 @@ public class Question06 {
 		
 		arithmetic obj  = new arithmetic();
 		Scanner s = new Scanner(System.in);
-		int a = s.nextInt();
-		int b = s.nextInt();
+		int a = 10;
+		int b = 20;
 		
 		a = (a > b)?obj.add(a, b):obj.sub(a, b);
 	}

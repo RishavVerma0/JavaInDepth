@@ -1,40 +1,39 @@
 package Assignment01;
 
-// Delete element from array at particular index
+import java.util.*;
+
 public class Question08 {
-
-	public static void main(String[] args) {
-		
-		int a[] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
-		int n = a.length;
-		
-		array obj = new array();
-		obj.delete(a, n, 3);
-		obj.print_array(a, n);
-		
-	}
-
-}
-
-class array 
-{
-	int i;
-	int[] delete(int []a, int n, int index)
-	{
-		
-		for(i = index + 1; i < n; i++)
-		{
-			a[i - 1] = a[i];
-		}
-		a[n - 1] = 0;
-		return a;
-	}
 	
-	void print_array(int []a ,int n)
-	{
-		for(i = 0; i < n; i++)
-		{
-			System.out.print(a[i]+" ");
+		public static void main(String[] agrs) {
+			
+			System.out.println("Question 08");
+			System.out.println("\t");
+			
+			Scanner in=new Scanner(System.in);
+			System.out.print("Enter the size of array:");
+			int n=in.nextInt();
+			int arr[]=new int[n];
+			
+			System.out.println("Enter the Element of array:");
+			for(int i=0;i<n;i++) {
+				arr[i]=in.nextInt();
+			}
+			
+			int m;
+			System.out.println("Enter the index whose element is to be deleted");
+			m=in.nextInt();
+			
+			System.out.println("Deleted Element="+arr[m]);
+			
+			for(int i=m;i<n-1;i++) {
+				arr[i]=arr[i+1];
+			}
+			
+			System.out.println("Array after the number is deleted");
+			for(int i=0;i<n-1;i++)
+			{
+				System.out.print(arr[i]+" ");
+			}
 		}
 	}
-}
+
