@@ -1,3 +1,12 @@
+/*
+ * Q4. Create a multi-level inheritance hierarchy from ClassOne, ClassTwo, ClassThree classes.
+ClassOne contains one, single parameterized constructor
+ClassTwo contains only a default constructor
+ClassThree contains one, single parameterized constructor and a default constructor.
+Create an object of top child class and make sure the constructor execution will take place according to respective multi-level inheritance hierarchy.
+ClassThree obj = new ClassThree(1); ClassThree obj = new ClassThree();
+ */
+
 package Assignment01;
 
 public class Question04 {

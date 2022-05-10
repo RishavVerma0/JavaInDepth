@@ -1,4 +1,6 @@
-/* 5Q.  WAP in Java which would contain 8 objects of a Class Employee.
+/*5Q. WAP in Java which would contain 8 objects of a Class Employee. Employee contains name, age, department, salary. 
+ * Your program would be able to calculate the total salary to be paid in each department.
+ *  Use constructors to create these 8 objects and Scanner to take inputs.
 		Employee contains name, age, department, salary. Your program would
 		be able to calculate the total salary to be paid in each department. Use
 		constructors to create these 8 objects and Scanner to take inputs.

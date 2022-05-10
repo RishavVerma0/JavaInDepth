@@ -1,3 +1,8 @@
+/*
+ * Q9. WAP in java, which would demonstrate access protection over a class and a variable of that class.
+ */
+
+
 package Assignment01;
 
 
