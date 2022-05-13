@@ -13,26 +13,29 @@ import java.util.Scanner;
 public class Question11 {
 	public static void main(String[] args) {
 
-		arithmeti obj = new arithmeti();
+		Solution obj = new Solution();
 		Scanner s = new Scanner(System.in);
+		System.out.println("Enter the value of A->");
 		int a = s.nextInt();
+		System.out.println("Enter the value of B->");
 		int b = s.nextInt();
 
-		a = (a > b) ? obj.add(a, b) : obj.sub(a, b);
-	}
+		 a = (a > b) ? obj.add(a, b) : obj.sub(a, b);
+	
 
+	}
 }
 
-class arithmeti {
-	int add(int a, int b) {
-		return a + b;
-	}
-
-	int sub(int a, int b) {
-		int res = a - b;
-		if (res < 0) {
-			return 0;
+class Solution {
+		int add(int a, int b) {
+			return a + b;
 		}
-		return res;
+
+		int sub(int a, int b) {
+			int c = a - b;
+			if (c < 0) {
+				return 0;
+			}
+			return c;
+		}
 	}
-}

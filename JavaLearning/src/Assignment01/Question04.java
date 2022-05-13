@@ -1,5 +1,5 @@
 /*
- * Q4. Create a multi-level inheritance hierarchy from ClassOne, ClassTwo, ClassThree classes.
+ * Q4. Create a multi-level inheritance hierarchy from ClassOne, ClassTwo, ClassThree classes. 
 ClassOne contains one, single parameterized constructor
 ClassTwo contains only a default constructor
 ClassThree contains one, single parameterized constructor and a default constructor.
