@@ -26,28 +26,29 @@ public class P14_ExceptionHandling {
 
 		ABC5 obj = new ABC5();
 
-		/*
-		 * try { // sensitive code int b = 0; int a = 100 / b; System.out.println(a); }
-		 * 
-		 * // child catch block] catch (InputMismatchException e) {
-		 * 
-		 * System.out.println("kahddeuggdcbjguyxgxqui");
-		 * System.out.println(e.getMessage()); } catch (ArithmeticException e) {
-		 * 
-		 * System.out.println("kahddeuggdcbjguyxgxqui");
-		 * System.out.println(e.getMessage()); } // parent catch block catch (Exception
-		 * e) { System.out.println("kahddeuggdcbjguyxgxqui");
-		 * System.out.println(e.getMessage());
-		 */
+		obj.basicException();
+		obj.handleException();
+		obj.multipleCatch();
+		obj.inputMismatchException();
+		//obj.stackOverFlowError(6);
+		obj.indexOutOfBoundException();
+		obj.nullPointerException();
+		// obj.useOfThrow(18);
+		obj.useOfThrows_And_Finally();
+		obj.checkedAndUncheckedException();
+
 	}
 }
 
 class ABC5 {
 
 	void basicException() {
-
-		int b = 0;
-		int a = 100 / b;
+		try {
+			int b = 0;
+			int a = 100 / b;
+		} catch (ArithmeticException e) {
+			System.out.println(e.getMessage());
+		}
 		System.out.println("Done");
 
 	}
@@ -167,6 +168,10 @@ class ABC5 {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+	}
+
+	void checkedAndUncheckedException() {
+
 	}
 
 }

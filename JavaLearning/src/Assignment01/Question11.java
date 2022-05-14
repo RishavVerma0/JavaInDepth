@@ -20,22 +20,21 @@ public class Question11 {
 		System.out.println("Enter the value of B->");
 		int b = s.nextInt();
 
-		 a = (a > b) ? obj.add(a, b) : obj.sub(a, b);
-	
+		a = (a > b) ? obj.add(a, b) : obj.sub(a, b);
 
 	}
 }
 
 class Solution {
-		int add(int a, int b) {
-			return a + b;
-		}
-
-		int sub(int a, int b) {
-			int c = a - b;
-			if (c < 0) {
-				return 0;
-			}
-			return c;
-		}
+	int add(int a, int b) {
+		return a + b;
 	}
+
+	int sub(int a, int b) {
+		int c = a - b;
+		if (c < 0) {
+			return 0;
+		}
+		return c;
+	}
+}
