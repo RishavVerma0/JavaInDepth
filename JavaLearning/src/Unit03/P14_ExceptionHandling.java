@@ -17,6 +17,11 @@ import java.util.Scanner;
  * 
  * Super class comes after child class in Exception handling
  * 
+ * 
+ * *IMP* ->  Our program would not compile if the exception occurs during compile then compiler 
+ * enforces to use try and catch block 
+ * if an exception bypasses the compiler process and break at runtime then it is called runtime exception
+ * 
  */
 
 public class P14_ExceptionHandling {
@@ -30,7 +35,7 @@ public class P14_ExceptionHandling {
 		obj.handleException();
 		obj.multipleCatch();
 		obj.inputMismatchException();
-		//obj.stackOverFlowError(6);
+		// obj.stackOverFlowError(6);
 		obj.indexOutOfBoundException();
 		obj.nullPointerException();
 		// obj.useOfThrow(18);
@@ -135,6 +140,8 @@ class ABC5 {
 
 		// finally lets you to execute the code after try and catch block regardless of
 		// the result
+		// it will always run even after the exception occurs or not
+		//finally always run
 		finally {
 			System.out.println("The 'Try and Catch' block is finished");
 		}
