@@ -3,11 +3,11 @@ package Unit03;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileReader;
 import java.io.InputStreamReader;
 
 public class P15_FileHandling_In_Java_Task_01 {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) throws Exception {
 		File file = new File("/Users/rishavverma/git/JavaInDepth/JavaLearning/src/Unit03/output.txt");
 		FileInputStream fileInputStream = new FileInputStream(file);
