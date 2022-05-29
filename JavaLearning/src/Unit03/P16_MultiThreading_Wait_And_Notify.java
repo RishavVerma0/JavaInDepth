@@ -3,7 +3,7 @@ package Unit03;
 /*
  * 
  * Inter-thread Communication:
-   - Threads uses wait, notify() and notifyAll() methods from Object Clas
+   - Threads uses wait, notify() and notifyAll() methods from Object Class
    - command + Shift + T -> Find object class and see its methods
    - command + O -> all methods
  * 
@@ -20,6 +20,27 @@ public class P16_MultiThreading_Wait_And_Notify {
 				c.withdraw(15000);
 			}
 		}.start();
+		new Thread() {
+			public void run() {
+				c.withdraw(15000);
+			}
+		}.start();
+		new Thread() {
+			public void run() {
+				c.withdraw(15000);
+			}
+		}.start();
+		new Thread() {
+			public void run() {
+				c.withdraw(15000);
+			}
+		}.start();
+		new Thread() {
+			public void run() {
+				c.withdraw(15000);
+			}
+		}.start();
+		
 
 //		new Thread() {
 //			public void run() {

@@ -14,6 +14,7 @@ public class P16_MultiThreading_Synchronization {
 
 		WebCount obj = new WebCount();
 
+		System.out.println(Thread.currentThread().getName());
 		Thread threadOne = new Thread(new Runnable() {
 			@Override
 			public void run() {
@@ -42,8 +43,8 @@ public class P16_MultiThreading_Synchronization {
 		// Waits for this thread to die. {Main thread will wait untill this thread is
 		// finished}
 		threadOne.join();
-
-		// Waits for this thread to die. {Main thread will wait untill this thread is
+//
+//		// Waits for this thread to die. {Main thread will wait untill this thread is
 		// finished}
 		threadTwo.join();
 
