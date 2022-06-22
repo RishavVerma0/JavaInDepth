@@ -141,7 +141,7 @@ class ABC5 {
 		// finally lets you to execute the code after try and catch block regardless of
 		// the result
 		// it will always run even after the exception occurs or not
-		//finally always run
+		// finally always run
 		finally {
 			System.out.println("The 'Try and Catch' block is finished");
 		}

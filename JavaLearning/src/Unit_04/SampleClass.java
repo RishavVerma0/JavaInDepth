@@ -80,30 +80,30 @@ class SampleWorkSwing extends JFrame {
 					Integer mul = a1 * a2;
 					l1.setText(mul.toString());
 				}
-//				if(e.getSource() == b4) {
-//					Integer div = a1 / a2;
-//					l1.setText(div.toString());
-//				}
+				if(e.getSource() == b4) {
+					Integer div = a1 / a2;
+					l1.setText(div.toString());
+				}
 
 			}
 		};
-		ActionListener Al = new ActionListener() {
-
-			public void actionPerformed(ActionEvent e) {
-
-				int a1 = Integer.parseInt(t1.getText());
-				int a2 = Integer.parseInt(t2.getText());
-
-				float div = a1 / a2;
-				l1.setText(div + "");
-			}
-		};
+//		ActionListener Al = new ActionListener() {
+//
+//			public void actionPerformed(ActionEvent e) {
+//
+//				int a1 = Integer.parseInt(t1.getText());
+//				int a2 = Integer.parseInt(t2.getText());
+//
+//				float div = a1 / a2;
+//				l1.setText(div + "");
+//			}
+//		};
 
 		// Logic on b1 and b2
 		b1.addActionListener(al);
 		b2.addActionListener(al);
 		b3.addActionListener(al);
-		b4.addActionListener(Al);
+		b4.addActionListener(al);
 
 		setLayout(new FlowLayout());
 		setVisible(true);

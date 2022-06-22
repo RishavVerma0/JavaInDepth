@@ -1,22 +1,22 @@
 package Unit_04;
 
-import java.awt.Canvas;
-
-
 import java.awt.Color;
+import java.awt.Canvas;
 import java.awt.Graphics;
-
 import javax.swing.JFrame;
 
-public class P17_DisplayGraphics_GUI extends Canvas {
+public class Practice extends Canvas{
+
+
 
 	public static void main(String[] args) {
-		P17_DisplayGraphics_GUI o = new P17_DisplayGraphics_GUI();
+			
+		Practice o = new Practice();
 
 		JFrame f = new JFrame();
 		f.add(o);
 
-		f.setSize(500, 580);
+		f.setSize(500, 400);
 		f.setVisible(true);
 		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -28,12 +28,13 @@ public class P17_DisplayGraphics_GUI extends Canvas {
 
 		grap.drawLine(FRAMEBITS, ERROR, ALLBITS, ABORT);
 
-		setForeground(Color.blue);
-		grap.fillOval(140, 140, 40, 60);
+		setForeground(Color.pink);
+		grap.fillOval(140, 140, 40, 40);
 
 		grap.drawArc(10, 20, 140, 150, 90, 60);
 
 		grap.drawRect(150, 40, 140, 60);
+		grap.fillRect(250, 50, 180, 70);
+	
 	}
-
 }

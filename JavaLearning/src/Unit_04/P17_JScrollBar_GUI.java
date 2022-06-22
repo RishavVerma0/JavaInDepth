@@ -1,7 +1,6 @@
 package Unit_04;
 
 import java.awt.FlowLayout;
-
 import javax.swing.JFrame;
 import javax.swing.JScrollBar;
 
@@ -24,7 +23,6 @@ class JScrollBar_GUI extends JFrame{
 		js = new JScrollBar();
 		
 		add(js);
-		
 		
 		setLayout(new FlowLayout());
 		setVisible(true);

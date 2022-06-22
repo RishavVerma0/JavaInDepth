@@ -1,7 +1,6 @@
 package Unit_04;
 
 import java.awt.FlowLayout;
-
 import javax.swing.JFrame;
 import javax.swing.JTable;
 
@@ -19,16 +18,20 @@ class Jtable_GUI extends JFrame {
 
 	Jtable_GUI() {
 
-		String data[][] = { { "101", "Amit", "670000" }, { "102", "Jai", "780000" }, { "101", "Sachin", "700000" } };
-		String column[] = { "ID", "NAME", "SALARY" };
+		String data[][] = { { "ID", "NAME", "SALARY","Home" },
+				{ "101", "Amit", "670000","UP" }, 
+				{ "102", "Jai", "780000","Bihar"}, 
+				{ "101", "Sachin", "700000","Uttrakhand"},
+				{"104", "Rishav" ,"5000","Bihar"} };
+		String column[] = {"", "", "", ""};
 
-		jt = new JTable(data, column);
+		jt = new JTable(data,column);
 		
 		add(jt);
 
 		setLayout(new FlowLayout());
 		setVisible(true);
-		setSize(400, 400);
+		setSize(600, 400);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
 }

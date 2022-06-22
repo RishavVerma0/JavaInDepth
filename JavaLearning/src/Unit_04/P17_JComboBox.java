@@ -3,13 +3,12 @@ package Unit_04;
 import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
 import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
-public class P17_JComboBox {
+public class P17_JComboBox  {
 
 	public static void main(String[] args) {
 		
@@ -33,7 +32,7 @@ class JComboBoxClass extends JFrame{
         String week[]= { "Monday","Tuesday","Wednesday",
                          "Thursday","Friday","Saturday","Sunday"};
 		
-		
+
         jbox = new JComboBox<>(week);
         
         b = new JButton("Submit");

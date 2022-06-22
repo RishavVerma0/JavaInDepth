@@ -65,6 +65,12 @@ class RadioAndCheck extends JFrame {
 
 		bg.add(r1);
 		bg.add(r2);
+		
+		ButtonGroup bg2 = new ButtonGroup();
+
+		bg2.add(c1);
+		bg2.add(c2);
+		
 
 		ActionListener al = new ActionListener() {
 
@@ -80,14 +86,19 @@ class RadioAndCheck extends JFrame {
 				if (r2.isSelected()) {
 					name = "Ms. " + name;
 				}
+				if (c1.isSelected() && c2.isSelected()) {
+					name = name + " is a Singer and Dancer both!";
+				}
 				
-				if (c1.isSelected()) {
+				else if (c1.isSelected()) {
 					name = name + " is a Dancer!";
 				}
 				
-				if (c2.isSelected()) {
+				else if (c2.isSelected()) {
 					name = name + " is a Singer!";
 				}
+				
+				
 				
 				l.setText(name);
 			}
